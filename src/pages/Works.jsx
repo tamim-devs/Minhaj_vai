@@ -23,7 +23,7 @@ const Works = () => {
         transition={{ duration: 0.6 }}
         className="text-center text-4xl md:text-6xl font-bold uppercase mb-16 tracking-wide"
       >
-        ✹ ALL PROJECTS ✹
+        ✹ ALL PROJECTS  ✹
       </motion.h1>
 
       {/* Grid Container */}
