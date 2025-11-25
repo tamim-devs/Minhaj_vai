@@ -4,19 +4,30 @@ import { experience } from "../../constant";
 const ExperienceCard = () => {
   return (
     <div
-      className="w-full max-w-2xl 
-                 bg-white/10 backdrop-blur-xl border border-white/20 
-                 px-6 py-8 sm:px-10 sm:py-12 
-                 rounded-2xl shadow-lg space-y-6"
+      className="
+        w-full max-w-2xl mx-auto
+        bg-white/10 backdrop-blur-xl border border-white/20
+        px-5 py-7 
+        sm:px-8 sm:py-10 
+        md:px-10 md:py-12
+        rounded-2xl shadow-lg 
+        space-y-6
+      "
     >
-      <h2 className="text-2xl font-bold text-white mb-2">Experience</h2>
+      {/* TITLE */}
+      <h2 className="text-2xl sm:text-3xl font-bold text-white mb-3 text-center sm:text-left">
+        Experience
+      </h2>
 
+      {/* EXPERIENCE LIST */}
       {experience.map((exp, index) => (
         <div
           key={index}
-          className="flex flex-col gap-2 
-                     pb-4 
-                     last:pb-0 last:border-b-0"
+          className="
+            flex flex-col gap-2 
+            pb-4 border-b border-white/10
+            last:border-b-0 last:pb-0
+          "
         >
           {/* YEAR */}
           <span className="text-gray-300 font-semibold text-lg sm:text-xl">
@@ -24,11 +35,11 @@ const ExperienceCard = () => {
           </span>
 
           {/* DETAILS */}
-          <div className="flex flex-col gap-1">
+          <div className="flex flex-col">
             <h3 className="text-xl sm:text-2xl font-bold text-white">
               {exp.role}
             </h3>
-            <p className="text-white/70 text-base sm:text-lg">
+            <p className="text-white/70 text-sm sm:text-base md:text-lg">
               {exp.company}
             </p>
           </div>

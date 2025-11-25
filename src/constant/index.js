@@ -14,6 +14,44 @@ const navLinks = [
   img2: "../../public/images/down arrorw star.png"
 };
 
+const worksData = [
+  {
+    id: 1,
+    category: "WEB DESIGNING",
+    title: "Dynamic",
+    image: "../../public/SHOWCASE.png",
+  },
+  {
+    id: 2,
+    category: "MOBILE DESIGNING",
+    title: "Seven Studio",
+    image: "../../public/SHOWCASE.png",
+  },
+  {
+    id: 3,
+    category: "BRANDING",
+    title: "Raven Studio",
+    image: "../../public/SHOWCASE.png",
+  },
+  {
+    id: 4,
+    category: "PHOTOGRAPHY",
+    title: "Diesel H1",
+    image: "../../public/SHOWCASE.png",
+  },
+  {
+    id: 5,
+    category: "MOBILE DESIGNING",
+    title: "Submarine",
+    image: "../../public/SHOWCASE.png",
+  },
+  {
+    id: 6,
+    category: "WEB DESIGNING",
+    title: "Hydra Merc",
+    image: "../../public/SHOWCASE.png",
+  },
+];
 
 
 const profile = {
@@ -62,4 +100,4 @@ const cta = {
 };
 
 
-export { navLinks,experience, profile,education,cta,socialLinks, headings  };
+export { navLinks,experience,worksData, profile,education,cta,socialLinks, headings  };
