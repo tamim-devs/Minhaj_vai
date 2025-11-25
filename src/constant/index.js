@@ -1,8 +1,8 @@
 const navLinks = [
-  { id: 1, label: "Home", path: "/" },
-  { id: 2, label: "About", path: "/about" },
-  { id: 3, label: "Works", path: "/works" },
-  { id: 4, label: "Contact", path: "/contact" },
+  { id: 1, label: "HOME", path: "/" },
+  { id: 2, label: "ABOUT", path: "/about" },
+  { id: 3, label: "VENTURES", path: "/works" },
+  { id: 4, label: "CONTACT", path: "/contact" },
 ];
 
  const headings = {
