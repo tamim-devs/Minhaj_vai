@@ -34,7 +34,11 @@ const SummaryCard = () => {
         >
           <img src={headings.image} alt="star" className="w-8 h-8 sm:w-10 sm:h-10" />
 
-<h1 className=" text-3xl sm:text-3xl md:text-6xl uppercase font-bold text-center md:text-left whitespace-nowrap">{headings.summaryH1}</h1>
+<motion.h1 
+ initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          className=" text-3xl sm:text-3xl md:text-6xl uppercase font-bold text-center md:text-left whitespace-nowrap">{headings.summaryH1}</motion.h1>
 
 
 
@@ -52,10 +56,11 @@ const SummaryCard = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="
             bg-linear-to-r from-[#1a1a1a] to-[#0d0d0d]
-            rounded-2xl border-2 relative
+            rounded-2xl border-gray-500 border-t-2 border-l-0 relative
             px-4 py-6
             sm:px-6 sm:py-8
-            md:px-8 md:py-10
+            md:px-10 md:py-10
+            lg:w-[800px]
             w-full
           "
         >

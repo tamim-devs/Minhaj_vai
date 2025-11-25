@@ -6,10 +6,11 @@ const ExperienceCard = () => {
     <div
       className="
         w-full max-w-2xl mx-auto
-        bg-white/10 backdrop-blur-xl border border-white/20
+        backdrop-blur-xl  border-gray-500 border-t-2 border-r-0 bg-linear-to-r from-[#1a1a1a] to-[#0d0d0d]
         px-5 py-7 
         sm:px-8 sm:py-10 
         md:px-10 md:py-12
+          lg:w-[800px]
         rounded-2xl shadow-lg 
         space-y-6
       "

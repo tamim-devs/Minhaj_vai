@@ -5,8 +5,8 @@ const EducationCard = () => {
   return (
     <div
       className="w-full max-w-2xl 
-                 bg-white/10 backdrop-blur-xl border border-white/20 
-                 px-6 py-8 sm:px-10 sm:py-12 
+                 border-gray-500 border-t-2 border-r-0 bg-linear-to-r from-[#1a1a1a] to-[#0d0d0d] backdrop-blur-xl border 
+                 px-6 py-20 sm:px-10 lg:h-full   lg:w-[500px] sm:py-12 
                  rounded-2xl shadow-lg space-y-6"
     >
       {education.map((edu, index) => (
