@@ -55,37 +55,47 @@ const worksData = [
 
 
 const profile = {
-    name: "David Henderson",
-  description: `I am a San Francisco-based product designer with a focus on
-web design, illustration, and visual development. I have a diverse range of
-experience having worked across various fields and industries.`,
-  image: "../../public/images/me2.png",
+    name: "Ankith Jain",
+  description: `What excites me most is the endless potential of human innovation,  the way 
+technology, intelligence, and ambition converge to create progress. To shape the 
+future, we don’t wait, we build it, together. `,
+  image: "../../public/dp.png",
 };
 
 const experience = [
   {
-    year: "2007 - 2017",
-    role: "Framer Designer & Developer",
-    company: "Bluebase Designs"
+    year: "Envision",
+    role: "“Imagine. Innovate. Accelerate.” ",
+    company: ""
   },
   {
-    year: "2017 - 2023",
-    role: "Front-End Developer",
-    company: "Larsen & Toubro"
+    year: "Collaborate ",
+    role: "“Connect. Create. Transform.” ",
+    company: ""
+  },
+  {
+    year: "Implement ",
+    role: "“Execute. Elevate. Sustain.” ",
+    company: ""
   }
 ];
 
 
 const education = [
   {
-    year: "2004 - 2007",
-    degree: "Bachelor Degree in Psychology",
-    school: "University of California"
+    year: "2009 – 2013",
+    degree: "Venture Foundations ",
+    
   },
   {
-    year: "2007 - 2009",
-    degree: "Master Degree in Designing",
-    school: "University of Texas"
+    year: "2014 – 2018",
+    degree: " Ecosystem Building ",
+    
+  },
+  {
+    year: "2019 – Present",
+    degree: " Frontier Investments",
+    
   }
 ];
 
