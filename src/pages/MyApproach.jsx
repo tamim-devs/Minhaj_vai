@@ -22,7 +22,7 @@ const MyApproach = () => {
 
             <li className="flex items-center gap-4">
               <div className="w-10 h-10 bg-[#1b1b1b] border border-[#2a2a2a] rounded-full flex items-center justify-center">💻</div>
-              <span className="text-gray-300 text-sm tracking-widest">WEB DESIGNING</span>
+              <span className="text-gray-300 text-sm tracking-widest">WEB D ESIGNING</span>
             </li>
 
             <li className="flex items-center gap-4">
