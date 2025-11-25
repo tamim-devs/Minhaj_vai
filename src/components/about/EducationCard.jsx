@@ -15,8 +15,12 @@ const EducationCard = () => {
           className="flex flex-col gap-2 pb-4 
                       last:pb-0 last:border-b-0"
         >
+          {/* TITLE */}
+          <h2 className="text-2xl sm:text-3xl font-bold text-white mb-3 text-center sm:text-left">
+            Innovation Timeline
+          </h2>
           {/* YEAR */}
-          <span className="text-white font-semibold text-lg sm:text-xl">
+          <span className="text-gray-300 font-semibold text-lg sm:text-xl">
             {edu.year}
           </span>
 

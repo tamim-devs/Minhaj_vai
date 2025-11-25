@@ -16,7 +16,7 @@ const ExperienceCard = () => {
     >
       {/* TITLE */}
       <h2 className="text-2xl sm:text-3xl font-bold text-white mb-3 text-center sm:text-left">
-        Experience
+        MY PROCESS  
       </h2>
 
       {/* EXPERIENCE LIST */}
