@@ -78,7 +78,7 @@ const OthersCard = () => {
             "
           >
             <img
-              src="/icon.svg"
+              src="/images/icon.svg"
               className="w-6 sm:w-7 h-6 sm:h-7 opacity-50 hover:opacity-100 transition duration-300"
             />
           </Link>

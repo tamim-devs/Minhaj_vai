@@ -11,14 +11,14 @@ const homeCards = [
     title: "A Web Designer",
     name: "David Henderson",
     description: "I am a Web Designer based in San Francisco.",
-    image: "/client.png",
+    image: "/images/client.png",
   },
   {
     id: 2,
     type: "credentials",
     title: "Credentials",
     subtitle: "More About Me",
-    icon: "/sign.png",
+    icon: "/images/sign.png",
      link: "/about"
   },
   {
@@ -26,7 +26,7 @@ const homeCards = [
     type: "projects",
     title: "Projects",
     subtitle: "Showcase",
-    image: "/SHOWCASE.png",
+    image: "/images/SHOWCASE.png",
     link: "/works"
 
   },
@@ -35,7 +35,7 @@ const homeCards = [
     type: "blog",
     title: "GFonts",
     subtitle: "Blog",
-    icon: "/images/gfonts.png",
+    icon: "../../public/images/gfonts.png",
   },
   {
     id: 5,
@@ -80,37 +80,37 @@ const worksData = [
     id: 1,
     category: "WEB DESIGNING",
     title: "Dynamic",
-    image: "/SHOWCASE.png",
+    image: "/images/SHOWCASE.png",
   },
   {
     id: 2,
     category: "MOBILE DESIGNING",
     title: "Seven Studio",
-    image: "/SHOWCASE.png",
+    image: "/images/SHOWCASE.png",
   },
   {
     id: 3,
     category: "BRANDING",
     title: "Raven Studio",
-    image: "/SHOWCASE.png",
+    image: "/images/SHOWCASE.png",
   },
   {
     id: 4,
     category: "PHOTOGRAPHY",
     title: "Diesel H1",
-    image: "/SHOWCASE.png",
+    image: "/images/SHOWCASE.png",
   },
   {
     id: 5,
     category: "MOBILE DESIGNING",
     title: "Submarine",
-    image: "/SHOWCASE.png",
+    image: "/images/SHOWCASE.png",
   },
   {
     id: 6,
     category: "WEB DESIGNING",
     title: "Hydra Merc",
-    image: "/SHOWCASE.png",
+    image: "/images/SHOWCASE.png",
   },
 ];
 
@@ -120,7 +120,7 @@ const profile = {
   description: `What excites me most is the endless potential of human innovation,  the way 
 technology, intelligence, and ambition converge to create progress. To shape the 
 future, we don’t wait, we build it, together. `,
-  image: "/client.png",
+  image: "/images/client.png",
 };
 
 const experience = [

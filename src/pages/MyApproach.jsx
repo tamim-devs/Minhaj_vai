@@ -1,5 +1,5 @@
 import React from "react";
-import sign from "/public/CredentialsImage.png"
+import sign from "/public/images/CredentialsImage.png"
 
 const MyApproach = () => {
   return (

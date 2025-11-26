@@ -13,7 +13,7 @@ const HomeCard = () => {
       p-6 rounded-2xl shadow-xl text-white flex flex-col gap-4">
 
         <div className="w-full h-32 rounded-xl overflow-hidden flex items-center justify-center bg-black/20">
-          <img src="/gfonts.png" alt="" />
+          <img src="/images/gfonts.png" alt="" />
         </div>
 
         <div className="flex justify-between items-center w-full">
@@ -24,7 +24,7 @@ const HomeCard = () => {
 
           <button className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-white/10 transition">
             <img
-              src="/icon.svg"
+              src="/images/icon.svg"
               alt="icon.svg"
               className="w-6 h-6 opacity-50 hover:opacity-100 transition duration-300"
             />
@@ -51,7 +51,7 @@ const HomeCard = () => {
 
           <Link to='/landing' className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-white/10 transition">
             <img
-              src="/icon.svg"
+              src="/images/icon.svg"
               alt=""
               className="w-6 h-6 opacity-50 hover:opacity-100 transition duration-300"
             />
@@ -76,7 +76,7 @@ const HomeCard = () => {
 
           <Link  to="/contact" className=" cursor-pointer w-10 h-10 flex items-center justify-center rounded-full hover:bg-white/10 transition">
             <img
-              src="/icon.svg"
+              src="/images/icon.svg"
               alt=""
               className="w-6 h-6 opacity-50 hover:opacity-100 transition duration-300"
             />

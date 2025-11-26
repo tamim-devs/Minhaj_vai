@@ -59,7 +59,7 @@ const SmallCard = () => {
           className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-white/10 transition"
         >
           <img
-            src="/icon.svg"
+            src="/images/icon.svg"
             alt="arrow"
             className="w-6 h-6 opacity-50 hover:opacity-100"
           />
