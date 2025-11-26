@@ -28,9 +28,9 @@ const Navbar = () => {
         ))}
       </ul>
 
-      <button className="hidden md:block px-6 py-2 bg-white/20 text-white rounded-xl hover:bg-white hover:text-black transition">
+      <Link to='/contact' className="hidden md:block px-6 py-2 bg-white/20 text-white rounded-xl hover:bg-white hover:text-black transition">
         Let’s Talk
-      </button>
+      </Link>
 
       <button
         onClick={() => setOpen(!open)}
@@ -51,9 +51,9 @@ const Navbar = () => {
             </NavLink>
           ))}
 
-          <button className="px-6 py-2 bg-white/20 text-white rounded-xl hover:bg-white hover:text-black transition">
+          <Link to='/contact' className="px-6 py-2 bg-white/20 text-white rounded-xl hover:bg-white hover:text-black transition">
             Let’s Talk
-          </button>
+          </Link>
         </div>
       )}
     </nav>

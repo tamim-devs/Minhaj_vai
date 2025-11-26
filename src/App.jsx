@@ -1,27 +1,33 @@
-import React from 'react'
-import Navbar from './components/Navbar'
-import About from './pages/About'
+import { AnimatePresence } from "framer-motion";
+import { useLocation, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import PageTransition from "./components/PageTransition";
+import Home from "./pages/Home";
+import About from "./pages/About";
 import Contact from './pages/Contact';
-import { Route, Router, Routes } from 'react-router-dom';
-import Home from './pages/Home';
-import Works from './pages/Works';
-import MyApproach from './pages/MyApproach';
+import Works from "./pages/Works";
+import MyApproach from "./pages/MyApproach";
 
 const App = () => {
+  const location = useLocation();
+
   return (
     <>
-    <Navbar />
-    <Routes>
-    <Route path="/" element={  <Home/>} />    
-    <Route path="/about" element={  <About/>} />    
-    <Route path="/contact" element={  <Contact/>} />    
-    <Route path="/works" element={  <Works/>} />  
-    <Route path="/landing" element={  <MyApproach/>} />  
+      <Navbar />
 
-    </Routes>
-   
+      <AnimatePresence mode="wait">
+        <PageTransition key={location.pathname}>
+          <Routes location={location}>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/works" element={<Works />} />
+            <Route path="/landing" element={<MyApproach />} />
+          </Routes>
+        </PageTransition>
+      </AnimatePresence>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;

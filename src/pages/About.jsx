@@ -3,12 +3,14 @@ import SummaryCard from "../components/about/SummaryCard";
 import { education, experience, profile } from "../constant";
 import ExperienceCard from "../components/about/ExperienceCard";
 import EducationCard from "../components/about/EducationCard";
-import OthersCard from "../components/about/othersCard";
 import { motion } from "framer-motion";
+import OthersCard from './../components/about/OthersCard';
+import PageTransition from "../components/PageTransition";
 
 const About = () => {
   return (
-    <div className="flex justify-center text-white px-4 sm:px-8 md:px-16 lg:px-24 py-16 sm:py-20">
+    <PageTransition>
+          <div className="flex justify-center text-white px-4 sm:px-8 md:px-16 lg:px-24 py-16 sm:py-20">
       <div className="flex flex-col gap-16 sm:gap-20 w-full max-w-6xl">
 
         {/* Summary Card */}
@@ -67,11 +69,13 @@ const About = () => {
           viewport={{ once: true }}
           className="w-full"
         >
-          <OthersCard />
+        <OthersCard/>
         </motion.div>
 
       </div>
     </div>
+    </PageTransition>
+
   );
 };
 

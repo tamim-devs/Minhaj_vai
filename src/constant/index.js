@@ -18,14 +18,17 @@ const homeCards = [
     type: "credentials",
     title: "Credentials",
     subtitle: "More About Me",
-    icon: "../../public/images/sign.png",
+    icon: "../../public/sign.png",
+     link: "/about"
   },
   {
     id: 3,
     type: "projects",
     title: "Projects",
     subtitle: "Showcase",
-    image: "/images/project-card.png",
+    image: "/SHOWCASE.png",
+    link: "/works"
+
   },
   {
     id: 4,
@@ -49,6 +52,7 @@ const homeCards = [
     icons: ["/icons/dribbble.svg", "/icons/twitter.svg"],
   },
 ];
+;
 
 const homeStats = [
   { id: 1, value: "07", label: "Years Experience" },

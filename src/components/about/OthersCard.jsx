@@ -1,97 +1,124 @@
-import React from "react";
+import React from 'react'
+import { homeCards } from '../../constant'
+import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 
 const OthersCard = () => {
   return (
-    <div
-      className="
-        flex flex-col gap-6 w-full
-        md:flex-row md:gap-8 md:items-stretch
-      "
-    >
-      {/* ========== CARD 1 (Profiles) ========== */}
+    <div className="w-full">
       <div
         className="
-          bg-white/10 border border-white/20 backdrop-blur-xl
-          p-6 rounded-2xl shadow-xl relative overflow-hidden
-          w-full md:w-[300px]
+          grid
+          grid-cols-1 
+          sm:grid-cols-2 
+          lg:grid-cols-4 
+          gap-6
         "
       >
-        <img
-          src="/images/bg1.png"
-          className="absolute inset-0 w-full h-full object-cover opacity-10"
-        />
 
-        <div className="relative z-10 flex flex-col justify-between h-full">
-          <div>
-            <h4 className="text-white/70 text-sm">Stay with me</h4>
-            <h1 className="text-3xl font-bold text-white">Profiles</h1>
+        {/* CARD 1 */}
+        {homeCards.slice(1, 2).map((item) => (
+          <motion.div
+            key={item.id}
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.6 }}
+            className="
+              bg-linear-to-r from-[#1a1a1a] to-[#0d0d0d]
+              p-6 
+              rounded-2xl 
+              shadow-xl 
+              space-y-3
+              h-full
+            "
+          >
+            <div className="w-full h-40 rounded-xl overflow-hidden">
+              <img src={item.image || item.icon} className="w-full h-full object-cover opacity-80" />
+            </div>
+
+            <div className="flex justify-between items-center">
+              <div>
+                <h4 className="text-white/70 text-sm">{item.subtitle}</h4>
+                <h1 className="text-xl font-bold text-white">{item.title}</h1>
+              </div>
+              <Link to={item.link}>
+                <img src="/images/icon.svg" className="w-9 h-9 hover:scale-110 transition" />
+              </Link>
+            </div>
+          </motion.div>
+        ))}
+
+        {/* ⭐ MIDDLE CARD ⭐ */}
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          className="
+            col-span-1 sm:col-span-2 lg:col-span-2
+            bg-linear-to-r from-[#232323] to-[#0d0d0d]
+            rounded-2xl 
+            shadow-xl 
+            border-t-2 
+            border-gray-500 
+            p-6 sm:p-10
+            flex items-center justify-between
+            h-full
+          "
+        >
+          <div className="text-xl sm:text-2xl md:text-3xl font-bold text-white">
+            <span>Let's</span>
+            <span className="block text-violet-800">Get Together</span>
           </div>
 
-          <button className="mt-6 bg-white/20 p-3 rounded-full hover:bg-white/30 transition">
-            <img src="/images/icon.svg" alt="btn" />
-          </button>
-        </div>
-      </div>
+          <Link
+            to="/contact"
+            className="
+              w-12 h-12 sm:w-14 sm:h-14 
+              flex items-center justify-center 
+              rounded-full hover:bg-white/10 transition
+            "
+          >
+            <img
+              src="/icon.svg"
+              className="w-6 sm:w-7 h-6 sm:h-7 opacity-50 hover:opacity-100 transition duration-300"
+            />
+          </Link>
+        </motion.div>
 
-      {/* ========== CARD 2 (Let’s work together — MIDDLE) ========== */}
-      <div
-        className="
-          bg-white/10 border border-white/20 backdrop-blur-xl
-          p-6 rounded-2xl shadow-xl relative overflow-hidden
-          w-full md:flex-1
-        "
-      >
-        <img
-          src="/images/bg1.png"
-          className="absolute inset-0 w-full h-full object-cover opacity-10"
-        />
-        <img
-          src="/images/icon2.png"
-          className="absolute top-4 right-4 w-10 opacity-90"
-        />
+        {/* CARD 2 */}
+        {homeCards.slice(2, 3).map((item) => (
+          <motion.div
+            key={item.id}
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.6 }}
+            className="
+              bg-linear-to-r from-[#1a1a1a] to-[#0d0d0d]
+              p-6 
+              rounded-2xl 
+              shadow-xl 
+              space-y-3
+              h-full
+            "
+          >
+            <div className="w-full h-40 rounded-xl overflow-hidden">
+              <img src={item.image || item.icon} className="w-full h-full object-cover opacity-80" />
+            </div>
 
-        <div className="relative z-10">
-          <h1 className="text-5xl font-bold leading-tight text-white">
-            Let’s <br /> work <span className="text-purple-400">together.</span>
-          </h1>
+            <div className="flex justify-between items-center">
+              <div>
+                <h4 className="text-white/70 text-sm">{item.subtitle}</h4>
+                <h1 className="text-xl font-bold text-white">{item.title}</h1>
+              </div>
+              <Link to={item.link}>
+                <img src="/images/icon.svg" className="w-9 h-9 hover:scale-110 transition" />
+              </Link>
+            </div>
+          </motion.div>
+        ))}
 
-          <button className="mt-6 bg-white/20 p-3 rounded-full hover:bg-white/30 transition">
-            <img src="/images/icon.svg" alt="btn" />
-          </button>
-        </div>
-      </div>
-
-      {/* ========== CARD 3 (Credentials) ========== */}
-      <div
-        className="
-          bg-white/10 border border-white/20 backdrop-blur-xl
-          p-6 rounded-2xl shadow-xl relative overflow-hidden
-          w-full md:w-[300px]
-        "
-      >
-        <img
-          src="/images/bg1.png"
-          className="absolute inset-0 w-full h-full object-cover opacity-10"
-        />
-
-        <img
-          src="/images/sign.png"
-          className="absolute top-4 right-4 w-20 opacity-80"
-        />
-
-        <div className="relative z-10 flex flex-col justify-between h-full">
-          <div>
-            <h4 className="text-white/70 text-sm capitalize">More about me</h4>
-            <h1 className="text-3xl font-bold text-white">Credentials</h1>
-          </div>
-
-          <button className="mt-6 bg-white/20 p-3 rounded-full hover:bg-white/30 transition">
-            <img src="/images/icon.svg" alt="btn" />
-          </button>
-        </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default OthersCard;
+export default OthersCard
