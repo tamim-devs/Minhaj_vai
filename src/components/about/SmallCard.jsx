@@ -8,58 +8,50 @@ const SmallCard = () => {
       initial={{ opacity: 0, y: 40 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      className="mx-auto grid grid-cols-6 gap-3 w-full h-52 max-w-4xl"
+      className="w-full max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6"
     >
 
       {/* LEFT CARD */}
       <div className="
-        col-span-3
         bg-gradient-to-r from-[#1a1a1a] to-[#0d0d0d]
-        rounded-2xl 
-        border-gray-500 border-t-2
-        shadow-lg
-        p-4 sm:p-6 md:p-8
-        flex items-center justify-center
+        rounded-2xl shadow-lg border-t-2 border-gray-500
+        px-6 py-8
+        flex justify-around items-center
       ">
-        <div className="flex justify-between items-center gap-10 sm:gap-14">
+        <div className="flex flex-col items-center text-white">
+          <span className="text-4xl font-bold">07</span>
+          <p className="text-sm text-white/70 text-center leading-tight">
+            Years <br /> Experience
+          </p>
+        </div>
 
-          <div className="flex flex-col items-center text-white gap-1">
-            <span className="text-4xl font-bold">07</span>
-            <p className="text-sm text-white/70 text-center leading-tight">
-              Years <br /> Experience
-            </p>
-          </div>
+        <div className="flex flex-col items-center text-white">
+          <span className="text-4xl font-bold">+125</span>
+          <p className="text-sm text-white/70 text-center leading-tight">
+            Clients <br /> Worldwide
+          </p>
+        </div>
 
-          <div className="flex flex-col items-center text-white gap-1">
-            <span className="text-4xl font-bold">+125</span>
-            <p className="text-sm text-white/70 text-center leading-tight">
-              Clients <br /> Worldwide
-            </p>
-          </div>
-
-          <div className="flex flex-col items-center text-white gap-1">
-            <span className="text-4xl font-bold">+210</span>
-            <p className="text-sm text-white/70 text-center leading-tight">
-              Total <br /> Projects
-            </p>
-          </div>
-
+        <div className="flex flex-col items-center text-white">
+          <span className="text-4xl font-bold">+210</span>
+          <p className="text-sm text-white/70 text-center leading-tight">
+            Total <br /> Projects
+          </p>
         </div>
       </div>
 
       {/* RIGHT CARD */}
       <div className="
-        col-span-3 col-start-4
         bg-gradient-to-r from-[#1a1a1a] to-[#0d0d0d]
-        rounded-2xl
-        border-gray-500 border-t-2 
-        p-6 sm:p-8 md:p-10
+        rounded-2xl shadow-lg border-t-2 border-gray-500
+        px-6 py-8
         flex justify-between items-center
-        shadow-lg
       ">
-        <div className="text-xl sm:text-2xl md:text-3xl font-bold text-white">
-          <span>Let's</span>
-          <span className="text-violet-800 block">Get Together</span> 
+        <div>
+          <span className="text-2xl md:text-3xl font-bold text-white">Let's</span>
+          <span className="text-violet-800 text-2xl md:text-3xl font-bold block">
+            Get Together
+          </span>
         </div>
 
         <Link
@@ -68,11 +60,12 @@ const SmallCard = () => {
         >
           <img
             src="/icon.svg"
-            alt=""
-            className="w-6 h-6 opacity-50 hover:opacity-100 transition"
+            alt="arrow"
+            className="w-6 h-6 opacity-50 hover:opacity-100"
           />
         </Link>
       </div>
+
     </motion.div>
   );
 };

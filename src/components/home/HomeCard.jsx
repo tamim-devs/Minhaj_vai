@@ -25,7 +25,7 @@ const HomeCard = () => {
           <button className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-white/10 transition">
             <img
               src="/icon.svg"
-              alt=""
+              alt="icon.svg"
               className="w-6 h-6 opacity-50 hover:opacity-100 transition duration-300"
             />
           </button>

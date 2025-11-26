@@ -66,7 +66,7 @@ const SummaryCard = () => {
         >
           <div className="absolute w-4 h-10 sm:w-4 sm:h-10 md:w-9 md:h-20  top-0 left-10 sm:top-0 md:top-0">
   <img
-    src="../../../public/images/down arrorw star.png"
+    src="/down arrorw star.png"
     alt="line-star"
     className=" md:h-6 object-contain"
   />
