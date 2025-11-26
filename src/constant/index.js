@@ -4,6 +4,64 @@ const navLinks = [
   { id: 3, label: "VENTURES", path: "/works" },
   { id: 4, label: "CONTACT", path: "/contact" },
 ];
+const homeCards = [
+  {
+    id: 1,
+    type: "profile",
+    title: "A Web Designer",
+    name: "David Henderson",
+    description: "I am a Web Designer based in San Francisco.",
+    image: "/images/profile-img.png",
+  },
+  {
+    id: 2,
+    type: "credentials",
+    title: "Credentials",
+    subtitle: "More About Me",
+    icon: "../../public/images/sign.png",
+  },
+  {
+    id: 3,
+    type: "projects",
+    title: "Projects",
+    subtitle: "Showcase",
+    image: "/images/project-card.png",
+  },
+  {
+    id: 4,
+    type: "blog",
+    title: "GFonts",
+    subtitle: "Blog",
+    icon: "/images/gfonts.png",
+  },
+  {
+    id: 5,
+    type: "services",
+    title: "Services Offering",
+    subtitle: "Specialization",
+    icons: ["/icons/design.svg", "/icons/branding.svg"],
+  },
+  {
+    id: 6,
+    type: "profiles",
+    title: "Profiles",
+    subtitle: "Stay With Me",
+    icons: ["/icons/dribbble.svg", "/icons/twitter.svg"],
+  },
+];
+
+const homeStats = [
+  { id: 1, value: "07", label: "Years Experience" },
+  { id: 2, value: "+125", label: "Clients Worldwide" },
+  { id: 3, value: "+210", label: "Total Projects" },
+];
+
+const homeCTA = {
+  title: "Let's work",
+  highlight: "together."
+};
+
+export { homeCards, homeStats, homeCTA };
 
  const headings = {
   summaryH1: "Self-summary",
