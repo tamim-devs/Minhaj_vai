@@ -4,8 +4,8 @@ import { education, experience, profile } from "../constant";
 import ExperienceCard from "../components/about/ExperienceCard";
 import EducationCard from "../components/about/EducationCard";
 import { motion } from "framer-motion";
-import OthersCard from './../components/about/OthersCard';
 import PageTransition from "../components/PageTransition";
+import OthersCard from "../components/about/othersCard";
 
 const About = () => {
   return (
