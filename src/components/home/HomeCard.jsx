@@ -73,13 +73,13 @@ const HomeCard = () => {
 
 
       {/* Card 3 */}
-      <Link to='/contact' className="bg-linear-to-r from-[#1a1a1a] to-[#0d0d0d]
-        rounded-2xl shadow-lg border-t border-gray-600
+      <Link to='/contact' className="  bg-linear-to-r from-[#1a1a1a] to-[#0d0d0d]
+        rounded-2xl shadow-lg border-t border-r-white border-gray-600
         px-6 py-6 flex flex-col gap-4 justify-between
         w-full md:w-[300px]">
          <div className="
         
-        flex flex-col gap-4 justify-between
+        flex flex-col gap-4 
         w-full md:w-[300px]
       ">
         <div className="w-full h-32 rounded-xl overflow-hidden flex items-center justify-center gap-6 bg-black/20">
@@ -87,13 +87,13 @@ const HomeCard = () => {
           <FaTwitter className="w-10 h-10 text-white"/>
         </div>
 
-        <div className="flex justify-between items-center w-full">
+        <div className="flex justify-between items-center w-full ">
           <div className="flex flex-col gap-1">
             <p className="text-gray-400 text-sm">CONNECT WITH ME</p>
             <p className="text-xl font-semibold text-white">My Socials</p>
           </div>
 
-          <Link to="/contact" className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-white/10 transition">
+          <Link to="/contact" className="w-10 h-10 flex items-center justify-center rounded-full mr-20 hover:bg-white/10 transition">
             <img src="/images/icon.svg" className="w-6 h-6 opacity-50 hover:opacity-100"/>
           </Link>
         </div>
