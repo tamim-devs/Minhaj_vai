@@ -11,6 +11,7 @@ import {
 } from "../../constant";
 import { FaDribbble, FaFacebookSquare, FaTwitter } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 40 },
@@ -28,7 +29,7 @@ const AboutMe = () => {
           initial="hidden"
           whileInView="show"
           viewport={{ once: true }}
-          className="bg-[#111] p-6 rounded-2xl shadow-xl space-y-6 h-fit"
+          className="bg-[#111] p-6 rounded-2xl shadow-xl space-y-6 h-fit flex flex-col items-center"
         >
           <div className="rounded-xl overflow-hidden">
             <img src={profile.image} className="w-full h-64 object-cover" />
@@ -43,15 +44,11 @@ const AboutMe = () => {
                 <FaFacebookSquare className="text-4xl rounded-full " />
           </div>
 
-          <div className="flex gap-4 text-xl">
-            {socialLinks.map((item, i) => (
-              <i key={i} className={item.icon}></i>
-            ))}
-          </div>
+        
 
-          <button className="w-full py-3 bg-white text-black rounded-xl font-semibold hover:bg-white/80 transition">
+          <Link className="px-20 py-3 bg-white text-black rounded-xl font-semibold hover:bg-white/80 transition">
             Contact Me
-          </button>
+          </Link>
         </motion.div>
 
         {/* RIGHT SIDE CONTENT */}
