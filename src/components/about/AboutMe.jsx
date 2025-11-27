@@ -46,7 +46,7 @@ const AboutMe = () => {
 
         
 
-          <Link className="px-20 py-3 bg-white text-black rounded-xl font-semibold hover:bg-white/80 transition">
+          <Link to='/contact' className="px-20 py-3 bg-white text-black rounded-xl font-semibold hover:bg-white/80 transition">
             Contact Me
           </Link>
         </motion.div>

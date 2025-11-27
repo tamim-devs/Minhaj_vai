@@ -10,6 +10,7 @@ import MyApproach from "./pages/MyApproach";
 import ContainerWrapper from "./components/ContainerWrapper";
 import AboutMe from "./components/about/AboutMe";
 import Blog from "./pages/Blog";
+import Footer from "./components/Footer";
 
 const App = () => {
   const location = useLocation();
@@ -33,6 +34,7 @@ const App = () => {
           </PageTransition>
         </AnimatePresence>
       </ContainerWrapper>
+      <Footer/>
     </>
   );
 };

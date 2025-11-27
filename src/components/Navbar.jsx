@@ -10,8 +10,10 @@ const Navbar = () => {
     <ContainerWrapper>
     <nav className="w-full bg-black px-6 py-4 flex 
     justify-center items-center  relative z-50">
-      <Link to="/">
-        <img src="/images/logo.svg" className="w-28" alt="logo" />
+      <Link to="/"  >
+      <div className="w-[300px] h-[90px]" alt="logo">
+          <img src="/images/Logo.png" />
+      </div>
       </Link>
 
       {/* Desktop menu */}
