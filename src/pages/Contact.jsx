@@ -1,11 +1,14 @@
 import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
 import { Dribbble, Twitter, Instagram } from "iconoir-react";
 import { motion } from "framer-motion";
+import ContainerWrapper from "../components/ContainerWrapper";
 
 export default function Contact() {
   return (
-    <div className="min-h-screen bg-[#0d0d0d] text-white pt-32 pb-20">
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 w-[90%] mx-auto">
+    <ContainerWrapper>
+    <div className="min-h-screen bg-[#0000] text-white pt-32 pb-20">
+      
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-10  ">
 
         {/* ================= LEFT SECTION ================= */}
         <motion.div
@@ -172,5 +175,6 @@ export default function Contact() {
         </motion.div>
       </div>
     </div>
+    </ContainerWrapper>
   );
 }

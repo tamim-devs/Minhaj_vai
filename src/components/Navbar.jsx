@@ -1,12 +1,15 @@
 import React, { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 import { navLinks } from "../constant/index";
+import ContainerWrapper from "../components/ContainerWrapper";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="w-full bg-black px-6 py-4 flex justify-between items-center relative z-50">
+    <ContainerWrapper>
+    <nav className="w-full bg-black px-6 py-4 flex 
+    justify-center items-center  relative z-50">
       <Link to="/">
         <img src="/images/logo.svg" className="w-28" alt="logo" />
       </Link>
@@ -69,6 +72,7 @@ const Navbar = () => {
         </Link>
       </div>
     </nav>
+    </ContainerWrapper>
   );
 };
 

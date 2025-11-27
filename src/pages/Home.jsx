@@ -81,9 +81,9 @@ const Home = () => {
                 transition={{ duration: 0.7 }}
                 className="bg-linear-to-r from-[#1a1a1a] to-[#0d0d0d] 
                 h-12 sm:h-14 rounded-xl flex items-center text-white 
-                font-semibold shadow-md overflow-hidden"
+                font-semibold shadow-md overflow-hidden relative"
               >
-                <div className="relative w-full">
+                
                   <motion.div
                     className="absolute whitespace-nowrap flex"
                     animate={{ x: ["0%", "-100%"] }}
@@ -92,7 +92,7 @@ const Home = () => {
                     <span className="px-12">FEATURED LATEST WORK AND STAR *</span>
                     <span className="px-12">FEATURED LATEST WORK AND STAR *</span>
                   </motion.div>
-                </div>
+               
               </motion.div>
 
               {/* TWO SMALL CARDS */}
@@ -136,7 +136,7 @@ const Home = () => {
                   </motion.div>
                 ))}
               </div>
-            </div>
+            </div> 
           </div>
 
           {/* FULL HOME CARD */}

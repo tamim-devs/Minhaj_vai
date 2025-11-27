@@ -19,7 +19,7 @@ const homeCards = [
     title: "Credentials",
     subtitle: "More About Me",
     icon: "/images/sign.png",
-     link: "/about"
+     link: "/aboutme"
   },
   {
     id: 3,
@@ -171,4 +171,67 @@ const cta = {
 };
 
 
-export { navLinks,experience,worksData, profile,education,cta,socialLinks, headings  };
+const aboutSummary = `
+Sit amet luctussd fav venenatis, lectus magna fringilla inis urna, porttitor
+rhoncus dolor purus non enim praesent in elementum sahas facilisis leo, vel
+fringilla est ullamcorper eget nulla facilisi etisam dignissim diam quis enim
+lobortis viverra orci sagittis eu volutpat odio facilisis mauris sit.
+
+Scelerisque fermentum duisi faucibus in ornare quam sisd sit amet luctussd fav
+venenatis, lectus magna fringilla zac urna, porttitor rhoncus dolor purus non
+enim praesent cuz elementum sahas facilisis leot.
+`;
+
+ const aboutExperience = [
+  {
+    year: "2007 - 2017",
+    role: "Framer Designer & Developer",
+    company: "Bluebase Designs",
+    desc: `Sit amet luctussd fav venenatis, lectus magna fringilla inis urna, porttitor
+rhoncus dolor purus non enim praesent in elementum sahas facilisis leo, vel
+fringilla est ullamcorper eget nulla facilisi etisam dignissim diam quis enim
+lobortis viverra orci sagittis eu volutpat odio facilisis mauris sit.`,
+  },
+  {
+    year: "2017 - 2023",
+    role: "Front-End Developer",
+    company: "Larsen & Toubro",
+    desc: `Sit amet luctussd fav venenatis, lectus magna fringilla inis urna, porttitor
+rhoncus dolor purus non enim praesent in elementum sahas facilisis leo, vel
+fringilla est ullamcorper eget nulla facilisi etisam dignissim diam quis enim
+lobortis viverra orci sagittis eu volutpat odio facilisis mauris sit.`,
+  },
+];
+
+const aboutEducation = [
+  {
+    year: "2004 - 2007",
+    degree: "Bachelor Degree in Psychology",
+    institute: "University of California",
+    desc: `Sit amet luctussd fav venenatis, lectus magna fringilla inis urna, porttitor
+rhoncus dolor purus non enim praesent in elementum sahas facilisis leo.`,
+  },
+  {
+    year: "2007 - 2009",
+    degree: "Master Degree in Designing",
+    institute: "University of Texas",
+    desc: `Sit amet luctussd fav venenatis, lectus magna fringilla inis urna, porttitor
+rhoncus dolor purus non enim praesent in elementum sahas facilisis leo.`,
+  },
+];
+
+ const aboutSkills = [
+  { label: "JavaScript", percent: 85, desc: "Non enim praesent" },
+  { label: "Python", percent: 78, desc: "Non enim praesent" },
+  { label: "Figma", percent: 92, desc: "Non enim praesent" },
+  { label: "WordPress", percent: 90, desc: "Non enim praesent" },
+  { label: "React", percent: 81, desc: "Non enim praesent" },
+  { label: "Adobe XD", percent: 87, desc: "Non enim praesent" },
+];
+
+const aboutAwards = [
+  { date: "14 May 2020", award: "Bluebase", desc: "Non enim praesent" },
+  { date: "26 June 2018", award: "Demble", desc: "Non enim praesent" },
+];
+
+export {aboutSummary , aboutEducation, aboutExperience, aboutSkills ,aboutAwards, navLinks,experience,worksData, profile,education,cta,socialLinks, headings  };

@@ -2,9 +2,11 @@ import React from 'react'
 import { homeCards } from '../../constant'
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import ContainerWrapper from '../ContainerWrapper';
 
 const OthersCard = () => {
   return (
+    <ContainerWrapper>
     <div className="w-full">
       <div
         className="
@@ -24,7 +26,7 @@ const OthersCard = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6 }}
             className="
-              bg-linear-to-r from-[#1a1a1a] to-[#0d0d0d]
+              bg-gradient-to-r from-[#1a1a1a] to-[#0d0d0d]
               p-6 
               rounded-2xl 
               shadow-xl 
@@ -33,7 +35,10 @@ const OthersCard = () => {
             "
           >
             <div className="w-full h-40 rounded-xl overflow-hidden">
-              <img src={item.image || item.icon} className="w-full h-full object-cover opacity-80" />
+              <img
+                src={item.image || item.icon}
+                className="w-full h-full object-cover opacity-80"
+              />
             </div>
 
             <div className="flex justify-between items-center">
@@ -54,7 +59,7 @@ const OthersCard = () => {
           animate={{ opacity: 1 }}
           className="
             col-span-1 sm:col-span-2 lg:col-span-2
-            bg-linear-to-r from-[#232323] to-[#0d0d0d]
+            bg-gradient-to-r from-[#232323] to-[#0d0d0d]
             rounded-2xl 
             shadow-xl 
             border-t-2 
@@ -92,7 +97,7 @@ const OthersCard = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6 }}
             className="
-              bg-linear-to-r from-[#1a1a1a] to-[#0d0d0d]
+              bg-gradient-to-r from-[#1a1a1a] to-[#0d0d0d]
               p-6 
               rounded-2xl 
               shadow-xl 
@@ -101,7 +106,10 @@ const OthersCard = () => {
             "
           >
             <div className="w-full h-40 rounded-xl overflow-hidden">
-              <img src={item.image || item.icon} className="w-full h-full object-cover opacity-80" />
+              <img
+                src={item.image || item.icon}
+                className="w-full h-full object-cover opacity-80"
+              />
             </div>
 
             <div className="flex justify-between items-center">
@@ -118,6 +126,7 @@ const OthersCard = () => {
 
       </div>
     </div>
+    </ContainerWrapper>
   )
 }
 
