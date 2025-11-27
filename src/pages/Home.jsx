@@ -19,7 +19,12 @@ const Home = () => {
           <div className="flex flex-col lg:flex-row gap-10">
 
             {/* PROFILE CARD */}
-            <motion.div
+            
+            <Link to='/about' className="w-full bg-linear-to-r from-[#1a1a1a] to-[#0d0d0d] 
+              rounded-3xl p-6 shadow-xl flex flex-col md:flex-row 
+              items-center gap-6">
+
+              <motion.div
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7 }}
@@ -69,8 +74,13 @@ const Home = () => {
                     </div>
                   ))}
               </div>
+             
             </motion.div>
+            </Link>
 
+            
+
+            
             {/* RIGHT SIDE SECTION */}
             <div className="w-full flex flex-col gap-6">
 

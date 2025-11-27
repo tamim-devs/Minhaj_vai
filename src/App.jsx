@@ -9,6 +9,7 @@ import Works from "./pages/Works";
 import MyApproach from "./pages/MyApproach";
 import ContainerWrapper from "./components/ContainerWrapper";
 import AboutMe from "./components/about/AboutMe";
+import Blog from "./pages/Blog";
 
 const App = () => {
   const location = useLocation();
@@ -27,6 +28,7 @@ const App = () => {
               <Route path="/works" element={<Works />} />
               <Route path="/landing" element={<MyApproach />} />
               <Route path="/aboutme" element={<AboutMe />} />
+              <Route path="/blog" element={<Blog />} />
             </Routes>
           </PageTransition>
         </AnimatePresence>

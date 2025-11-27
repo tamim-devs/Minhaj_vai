@@ -9,6 +9,7 @@ const HomeCard = () => {
     <div className="flex flex-col md:flex-row gap-6 w-full">
 
       {/* Card 1 */}
+      <Link to='/blog'>
       <div className="
         bg-gradient-to-r from-[#1a1a1a] to-[#0d0d0d]
         rounded-2xl shadow-lg border-t border-gray-600
@@ -25,25 +26,26 @@ const HomeCard = () => {
             <p className="text-xl font-semibold text-white">Gfonts</p>
           </div>
 
-          <button className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-white/10 transition">
+          <Link to='/blog' className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-white/10 transition">
             <img src="/images/icon.svg" alt="" className="w-6 h-6 opacity-50 hover:opacity-100"/>
-          </button>
+          </Link>
         </div>
       </div>
+      </Link>
+      
 
 
       {/* Middle Card */}
-      <div className="
-        bg-gradient-to-r from-[#1a1a1a] to-[#0d0d0d]
+      <Link className="  bg-gradient-to-r from-[#1a1a1a] to-[#0d0d0d]
         rounded-2xl shadow-lg border-t border-gray-600
         px-6 py-6 flex flex-col gap-6 justify-center
-        w-full md:flex-1
-      ">
-        <div className="flex justify-center gap-6 text-white flex-wrap">
-          <CiCamera className="w-10 h-10"/>
-          <PiPencilCircleLight className="w-10 h-10"/>
-          <CiCamera className="w-10 h-10"/>
-          <CiCamera className="w-10 h-10"/>
+        w-full md:flex-1" to='/landing'>
+      <div>
+        <div className="flex  justify-center gap-6 text-white flex-wrap">
+          <CiCamera className="w-20 h-20"/>
+          <PiPencilCircleLight className="w-20 h-20"/>
+          <CiCamera className="w-20 h-20"/>
+          <CiCamera className="w-20 h-20"/>
         </div>
 
         <div className="flex justify-between items-center w-full">
@@ -57,6 +59,7 @@ const HomeCard = () => {
           </Link>
         </div>
       </div>
+      </Link>
 
 
       {/* Card 3 */}
