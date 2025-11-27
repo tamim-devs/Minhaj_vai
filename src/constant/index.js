@@ -8,24 +8,24 @@ const homeCards = [
   {
     id: 1,
     type: "profile",
-    title: "A Web Designer",
-    name: "David Henderson",
-    description: "I am a Web Designer based in San Francisco.",
+    title: "",
+    name: "Ankith Jain",
+    description: "Omni-Investor | Visionary Leader | Futurist",
     image: "/images/client.png",
   },
   {
     id: 2,
     type: "credentials",
-    title: "Credentials",
-    subtitle: "More About Me",
-    icon: "/images/sign.png",
+    title: "Impact",
+    subtitle: "MORE ABOUT ME",
+    icon: "/images/CredentialsImage.png",
      link: "/aboutme"
   },
   {
     id: 3,
     type: "projects",
-    title: "Projects",
-    subtitle: "Showcase",
+    title: "My Ventures",
+    subtitle: "SHOWCASE",
     image: "/images/SHOWCASE.png",
     link: "/works"
 
@@ -120,7 +120,7 @@ const profile = {
   description: `What excites me most is the endless potential of human innovation,  the way 
 technology, intelligence, and ambition converge to create progress. To shape the 
 future, we don’t wait, we build it, together. `,
-  image: "/images/client.png",
+  image: "/images/2.png",
 };
 
 const experience = [
@@ -172,14 +172,24 @@ const cta = {
 
 
 const aboutSummary = `
-Sit amet luctussd fav venenatis, lectus magna fringilla inis urna, porttitor
-rhoncus dolor purus non enim praesent in elementum sahas facilisis leo, vel
-fringilla est ullamcorper eget nulla facilisi etisam dignissim diam quis enim
-lobortis viverra orci sagittis eu volutpat odio facilisis mauris sit.
+I am a serial technopreneur, investor, philanthropist, and futurist whose journey embodies
+vision and purpose. By the age of 32, I have built a diverse portfolio across technology,
+artificial intelligence, real estate, and frontier industries, driven by one guiding principle: to
+create value that endures.
+Since launching my first venture in 2012, I have learned to recognize opportunities where
+others see uncertainty, turning bold ideas into thriving ecosystems. Often referred to as an
+Omni-Investor, I connect industries, technologies, and people to uncover possibilities that
+redefine progress.
+My philosophy extends beyond capital. I mentor founders, empower leadership, and help
+teams navigate complexity with clarity and foresight. My approach blends strategic
+investment with human insight, building ventures that are resilient, adaptive, and
+transformative.
+Rooted in curiosity and purpose, I continue to explore how innovation can drive a more
+connected, sustainable, and intelligent world. My philanthropic efforts mirror this ethos by
+prioritizing progress that uplifts rather than disrupts.
+”True leadership is not about predicting the future. It is about building it with
+vision, courage, and collective action.”
 
-Scelerisque fermentum duisi faucibus in ornare quam sisd sit amet luctussd fav
-venenatis, lectus magna fringilla zac urna, porttitor rhoncus dolor purus non
-enim praesent cuz elementum sahas facilisis leot.
 `;
 
  const aboutExperience = [
@@ -221,12 +231,12 @@ rhoncus dolor purus non enim praesent in elementum sahas facilisis leo.`,
 ];
 
  const aboutSkills = [
-  { label: "JavaScript", percent: 85, desc: "Non enim praesent" },
-  { label: "Python", percent: 78, desc: "Non enim praesent" },
-  { label: "Figma", percent: 92, desc: "Non enim praesent" },
-  { label: "WordPress", percent: 90, desc: "Non enim praesent" },
-  { label: "React", percent: 81, desc: "Non enim praesent" },
-  { label: "Adobe XD", percent: 87, desc: "Non enim praesent" },
+  { label: "Foresight and Future Mapping", percent: '92', desc: "Non enim Anticipating emerging trends." },
+  { label: "Strategic Investment", percent: 90, desc: "Allocating capital with purpose" },
+  { label: "Systems Thinking", percent: 88, desc: "Understanding interconnected environments." },
+  { label: "Technical Fluency", percent: 87, desc: "Adapting to evolving technologies" },
+  { label: "Visionary Leadership", percent: 85, desc: " Guiding teams toward long-term outcomes." },
+  { label: "Network Orchestration XD", percent: 83, desc: "Building collaborative ecosystems." },
 ];
 
 const aboutAwards = [

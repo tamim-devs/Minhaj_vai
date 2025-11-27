@@ -76,29 +76,7 @@ const MyApproach = () => {
             </div>
           </div>
 
-          {/* BOTTOM 3 TILES */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-
-            <div className="bg-[#121212] border border-[#222] rounded-2xl p-6">
-              <p className="text-xs text-gray-300 mb-2">STAY WITH ME</p>
-              <p className="font-medium">Profiles</p>
-            </div>
-
-            <div className="bg-[#121212] border border-[#222] rounded-2xl p-6 flex items-center">
-              <h2 className="text-2xl font-semibold">
-                Let's <span className="text-indigo-400">work</span> together.
-              </h2>
-            </div>
-
-            <div className="bg-[#121212] border border-[#222] rounded-2xl p-6">
-              <p className="text-xs text-gray-300 mb-3">MORE ABOUT ME</p>
-              <div className="w-full h-20 bg-[#0e0e0e] rounded-lg mb-3 flex items-center justify-center text-gray-600 text-xs">
-                <img src={sign} alt="" />
-              </div>
-              <p className="font-medium">Credentials</p>
-            </div>
-
-          </div>
+         
         </div>
 
       </div>

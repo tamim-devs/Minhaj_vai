@@ -55,8 +55,8 @@ const Home = () => {
                       </h3>
 
                       <h2 className="text-white 
-                      text-xl sm:text-2xl md:text-3xl lg:text-4xl 
-                      font-bold leading-tight">
+                      text-3xl sm:text-2xl md:text-4xl lg:text-4xl 
+                      font-bold w-4 leading-tight">
                         {c.name}
                       </h2>
 
@@ -99,8 +99,8 @@ const Home = () => {
                     animate={{ x: ["0%", "-100%"] }}
                     transition={{ duration: 6, repeat: Infinity, ease: "linear" }}
                   >
-                    <span className="px-12">FEATURED LATEST WORK AND STAR *</span>
-                    <span className="px-12">FEATURED LATEST WORK AND STAR *</span>
+                    <span className="px-12">Vision. Versatility. Impact. *</span>
+                    <span className="px-12">Vision. Versatility. Impact. *</span>
                   </motion.div>
                
               </motion.div>
@@ -116,16 +116,18 @@ const Home = () => {
                     className="bg-linear-to-r from-[#1a1a1a] to-[#0d0d0d]
                     p-6 rounded-2xl shadow-xl space-y-3"
                   >
-                    {(item.image || item.icon) && (
+                    {(item.image || item.icon || item.link) && (
+                      <Link to={item.link}>
                       <div className="w-full h-40 rounded-xl overflow-hidden">
                         <img
                           src={item.image || item.icon}
                           className="w-full h-full object-cover opacity-80"
                         />
                       </div>
+                      </Link>
                     )}
 
-                    <div className="flex justify-between items-center">
+                    <Link to={item.link} className="flex justify-between items-center">
                       <div>
                         <h4 className="text-white/70 text-sm">
                           {item.subtitle}
@@ -142,7 +144,7 @@ const Home = () => {
                           className="w-9 h-9 hover:scale-110 transition"
                         />
                       </Link>
-                    </div>
+                    </Link>
                   </motion.div>
                 ))}
               </div>

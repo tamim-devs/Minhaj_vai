@@ -58,34 +58,11 @@ const AboutMe = () => {
           <motion.div variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }}>
             <h1 className="text-xl font-bold mb-4">ABOUT ME</h1>
             <p className="text-gray-300 leading-7 text-sm md:text-base">{aboutSummary}</p>
+            <p className="text-white font-bold text-xl text-start mt-4 md:text-2xl">”True leadership is not about predicting the future. It is about building it with
+vision, courage, and collective action.”</p>
           </motion.div>
 
-          {/* EXPERIENCE */}
-          <motion.div variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }}>
-            <h1 className="text-xl font-bold mb-6">EXPERIENCE</h1>
-
-            {aboutExperience.map((exp, i) => (
-              <div key={i} className="mb-6">
-                <p className="text-gray-400 text-sm">{exp.year}</p>
-                <h3 className="text-lg font-bold text-blue-400">{exp.role}</h3>
-                <p className="text-gray-400 mb-2">{exp.company}</p>
-                <p className="text-gray-300 leading-7 text-sm md:text-base">{exp.desc}</p>
-              </div>
-            ))}
-          </motion.div>
-
-          {/* EDUCATION */}
-          <motion.div variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }}>
-            <h1 className="text-xl font-bold mb-6">EDUCATION</h1>
-
-            {aboutEducation.map((edu, i) => (
-              <div key={i} className="mb-6">
-                <p className="text-gray-400 text-sm">{edu.year}</p>
-                <h3 className="text-lg font-bold text-blue-400">{edu.degree}</h3>
-                <p className="text-gray-300 leading-7 text-sm md:text-base">{edu.desc}</p>
-              </div>
-            ))}
-          </motion.div>
+         
 
           {/* SKILLS */}
           <motion.div variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }}>
@@ -102,20 +79,7 @@ const AboutMe = () => {
             </div>
           </motion.div>
 
-          {/* AWARDS */}
-          <motion.div variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }}>
-            <h1 className="text-xl font-bold mb-6">AWARDS</h1>
-
-            <div className="flex flex-col gap-6">
-              {aboutAwards.map((award, i) => (
-                <div key={i} className="flex flex-col whitespace-nowrap leading-6">
-                  <span className="text-gray-400 text-sm">{award.date}</span>
-                  <span className="text-blue-400 font-semibold text-lg">{award.award}</span>
-                  <span className="text-gray-300 text-sm">{award.desc}</span>
-                </div>
-              ))}
-            </div>
-          </motion.div>
+        
         </div>
       </div>
     </div>

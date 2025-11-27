@@ -28,43 +28,50 @@ const SmallCard = () => {
   "
 >
   <div className="flex flex-col bg-gradient-to-r from-[#141414] to-[#1b1b1b] rounded-md p-6 items-center text-white w-full md:w-auto">
-    <span className="text-4xl font-bold">07</span>
+    <span className="text-4xl font-bold">14+</span>
     <p className="text-sm text-white/70 text-center leading-tight">
       Years <br /> Experience
     </p>
   </div>
 
   <div className="flex rounded-md bg-gradient-to-r from-[#141414] to-[#1b1b1b] p-6 flex-col items-center text-white w-full md:w-auto">
-    <span className="text-4xl font-bold">+125</span>
+    <span className="text-4xl font-bold">15+</span>
     <p className="text-sm text-white/70 text-center leading-tight">
-      Clients <br /> Worldwide
+      SUCCESSFUL  <br /> VENTURES
     </p>
   </div>
 
   <div className="bg-gradient-to-r rounded-md from-[#141414] to-[#1b1b1b] p-6 flex flex-col items-center text-white w-full md:w-auto">
-    <span className="text-4xl font-bold">+210</span>
+    <span className="text-4xl font-bold">100+</span>
     <p className="text-sm text-white/70 text-center leading-tight">
-      Total <br /> Projects
+      INVESTED 
+ <br /> COMPANIES
     </p>
   </div>
 </div>
 
 
         {/* RIGHT CARD */}
-        <div
-          className="
+        <Link  className="
             bg-gradient-to-r from-[#1a1a1a] to-[#0d0d0d]
             rounded-2xl shadow-lg border-t-2 border-gray-600
+            px-8 py-8
+            flex justify-between items-center w-full
+          " to='/contact'>
+          <div
+          className="
+          
+            rounded-2xl 
             px-8 py-8
             flex justify-between items-center w-full
           "
         >
           <div>
             <span className="text-4xl md:text-4xl font-bold text-white">
-              Let's
+             Connect
             </span>
             <span className="text-violet-700  md:text-5xl font-bold block">
-              Get Together
+              with me.
             </span>
           </div>
 
@@ -79,6 +86,8 @@ const SmallCard = () => {
             />
           </Link>
         </div>
+        </Link>
+      
       </motion.div>
    
   );

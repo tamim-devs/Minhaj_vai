@@ -69,9 +69,9 @@ const OthersCard = () => {
             h-full
           "
         >
-          <div className="text-xl sm:text-2xl md:text-3xl font-bold text-white">
-            <span>Let's</span>
-            <span className="block text-violet-800">Get Together</span>
+          <div className="text-xl sm:text-2xl md:flex md:flex-col font-bold text-white">
+            <span className="text-xl sm:text-2xl md:text-3xl font-bold text-white">Contact</span>
+            <span className="text-xl sm:text-2xl md:text-3xl font-bold text-violet-700"> with me.</span>
           </div>
 
           <Link
