@@ -6,7 +6,7 @@ import EducationCard from "../components/about/EducationCard";
 import { motion } from "framer-motion";
 import PageTransition from "../components/PageTransition";
 import ContainerWrapper from "../components/ContainerWrapper";
-import OthersCard from "../components/about/othersCard";
+import OthersCard from "../components/about/OthersCard";
 
 const About = () => {
   return (
