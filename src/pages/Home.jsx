@@ -97,10 +97,10 @@ const Home = () => {
                   <motion.div
                     className="absolute whitespace-nowrap flex"
                     animate={{ x: ["0%", "-100%"] }}
-                    transition={{ duration: 6, repeat: Infinity, ease: "linear" }}
+                    transition={{ duration: 5, repeat: Infinity, ease: "linear" }}
                   >
-                    <span className="px-12">Vision. Versatility. Impact. *</span>
-                    <span className="px-12">Vision. Versatility. Impact. *</span>
+                    <span className="px-12">Vision. Versatility. Impact.</span>
+                    <span className="px-12">Vision. Versatility. Impact. </span>
                   </motion.div>
                
               </motion.div>
