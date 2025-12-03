@@ -85,25 +85,31 @@ const Home = () => {
             <div className="w-full flex flex-col gap-6">
 
               {/* SLIDER */}
-              <motion.div
-                initial={{ opacity: 0, x: 40 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.7 }}
-                className="bg-linear-to-r from-[#1a1a1a] to-[#0d0d0d] 
-                h-12 sm:h-14 rounded-xl flex items-center text-white 
-                font-semibold shadow-md overflow-hidden relative"
-              >
-                
-                  <motion.div
-                    className="absolute whitespace-nowrap flex"
-                    animate={{ x: ["0%", "-100%"] }}
-                    transition={{ duration: 5, repeat: Infinity, ease: "linear" }}
-                  >
-                    <span className="px-12">Elevate. Empower. Evolve.</span>
-                    <span className="px-12">Elevate. Empower. Evolve. </span>
-                  </motion.div>
-               
-              </motion.div>
+            <motion.div
+  initial={{ opacity: 1, x: 0 }}
+  animate={{ opacity: 1, x: 0 }}
+  className="bg-gradient-to-r from-[#1a1a1a] to-[#0d0d0d] 
+             h-12 sm:h-14 rounded-xl flex items-center text-white 
+             font-semibold shadow-md overflow-hidden relative"
+>
+  <motion.div
+    className="absolute flex whitespace-nowrap"
+    animate={{ x: ["0%", "-50%"] }} // move left by half the total width
+    transition={{ repeat: Infinity, duration: 8, ease: "linear" }}
+  >
+    {/* Duplicate the text sequence for seamless looping */}
+    <span className="px-12">Vision. Versatility. Impact.</span>
+    <span className="px-12">Vision. Versatility. Impact.</span>
+    <span className="px-12">Elevate. Empower. Evolve.</span>
+    <span className="px-12">Elevate. Empower. Evolve.</span>
+
+    <span className="px-12">Vision. Versatility. Impact.</span>
+    <span className="px-12">Vision. Versatility. Impact.</span>
+    <span className="px-12">Elevate. Empower. Evolve.</span>
+    <span className="px-12">Elevate. Empower. Evolve.</span>
+  </motion.div>
+</motion.div>
+
 
               {/* TWO SMALL CARDS */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">

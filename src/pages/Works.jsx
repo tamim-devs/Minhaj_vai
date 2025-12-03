@@ -1,7 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
-import iconPlus from "../../public/images/icon.svg";
+import iconPlus from "../../public/images/Next Icon.png";
 import { worksData } from "../constant";
+import { Link } from "react-router-dom";
 
 const cardVariant = {
   hidden: { opacity: 0, y: 40 },
@@ -75,19 +76,20 @@ const Works = () => {
               {/* Icon Box */}
               <div
                 className="
-                  bg-[#1b1b1b]
+                  
                   w-10 h-10 sm:w-11 sm:h-11 md:w-12 md:h-12
                   flex items-center justify-center
-                  rounded-xl border border-[#2c2c2c]
-                  hover:border-[#4a4a4a]
+                  rounded-xl 
                   transition-all duration-300
                 "
               >
+                <Link to='/blog'>
                 <img
                   src={iconPlus}
                   alt="open"
                   className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 object-contain opacity-80 hover:opacity-100 transition"
                 />
+                </Link>
               </div>
 
             </div>

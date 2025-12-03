@@ -820,8 +820,196 @@ const blogPosts = [
       },
 
     ]
-  }
+  },
+{
+    id: 3,
+  image: "/images/blog3.png",
+  title: "Leadership Beyond Capital: How Purpose Driven Investing Shapes a Better Future",
+  sections: [
+    {
+      heading: "",
+      content: [
+        { type: "text", value: "For a long time investing was viewed through a simple lens. Put money in. Expect profit out. Success was measured only through financial gains. But the world is changing. New generations of entrepreneurs, investors and thinkers are raising an important question. What if investment could create more than profit? What if it could also create progress?" },
+        { type: "br" },
+        { type: "text", value: "This is where purpose driven investing enters the picture. It is a model of leadership where capital is not the only source of influence. Purpose becomes the guiding force and investment becomes a tool to create long lasting positive change. Today more investors are choosing to build ventures that stand for something greater than returns. They want to shape a world that is responsible, conscious and empowering." }
+      ]
+    },
 
+    {
+      heading: "Beyond Money: A New Definition of Leadership",
+      content: [
+        { type: "text", value: "Traditional investing focuses on what a venture can earn. Purpose driven investing focuses on what a venture can contribute. This form of leadership looks at impact as seriously as income." },
+        { type: "br" },
+        { type: "text", value: "A purpose driven investor asks questions such as:" },
+        { type: "br" },
+        { type: "text", value: "• Does this venture improve lives" },
+        { type: "br" },
+        { type: "text", value: "• Can it solve a meaningful problem" },
+        { type: "br" },
+        { type: "text", value: "• Is it building something that will matter ten years from now" },
+        { type: "br" },
+        { type: "text", value: "This mindset shifts the role of investors from funders to changemakers. Their decisions influence not just companies but entire communities and industries." },
+        { type: "br" }
+      ]
+    },
+
+    {
+      heading: "Why Purpose Matters in Modern Investing",
+      content: [
+        { type: "text", value: "Modern consumers expect more from brands. They are aware of environmental issues, human welfare challenges and the importance of ethical practices. As a result companies that operate responsibly often rise faster and build deeper trust." },
+        { type: "br" },
+        { type: "text", value: "Investors notice this shift. Purpose is no longer a soft value. It influences long term success in very real ways." },
+        { type: "br" },
+        { type: "text", value: "Purpose driven investing creates advantages such as:" },
+        { type: "br" },
+        { type: "text", value: "• Strong brand loyalty" },
+        { type: "br" },
+        { type: "text", value: "• Higher credibility in the market" },
+        { type: "br" },
+        { type: "text", value: "• Better talent attraction" },
+        { type: "br" },
+        { type: "text", value: "• Increased long term resilience" },
+        { type: "br" },
+        { type: "text", value: "• Opportunities in emerging global priorities such as green energy and sustainable development" },
+        { type: "br" }
+      ]
+  },
+{
+      heading: "How Purpose Drives Better Ideas and Better Ventures",
+      content: [
+        { type: "text", value: "Purpose acts as a compass. It guides decisions even in uncertain conditions. When a venture knows why it exists it can adapt more confidently. It can make tough choices without losing direction." },
+        { type: "br" },
+        { type: "text", value: "Purpose driven ventures often show three strengths." },
+        { type: "br" },
+        { type: "bold", value: "Clarity" },
+        { type: "br" },
+        { type: "text", value: "They understand the impact they want to create. This clarity shapes strategy and culture." },
+        { type: "br" },
+        { type: "bold", value: "Innovation" },
+        { type: "br" },
+        { type: "text", value: "They solve problems that matter, which gives them more room to innovate. Real world needs become fuel for creativity" },
+        { type: "br" },
+        { type: "bold", value: "Resilience" },
+        { type: "br" },
+        { type: "text", value: "Ventures built on purpose stand strong even during difficult phases. Their goal is not only profit which makes them more stable." },
+        { type: "br" },
+        { type: "text", value: "This is why purpose driven investment is becoming a powerful model for long term business." },
+        { type: "br" },
+        { type: "text", value: "" },
+      ]
+    },{
+     heading: "Purpose Driven Investing in Action",
+      content: [
+        { type: "text", value: "There are several areas where purpose driven investing is making strong progress." },
+        { type: "br" },
+        { type: "bold", value: "Sustainable solutions" },
+        { type: "br" },
+        { type: "text", value: "Investments in clean energy waste reduction, low footprint manufacturing and circular products are rising globally. These ventures not only reduce harm but also open new markets." },
+        { type: "br" },
+        { type: "bold", value: "Inclusive technology" },
+        { type: "br" },
+        { type: "text", value: "Investors are supporting tools that give people better access to finance education and healthcare. Digital inclusion is becoming a major pillar of modern growth." },
+        { type: "br" },
+        { type: "bold", value: "Social wellbeing" },
+        { type: "br" },
+        { type: "text", value: "Businesses working on mental health community empowerment or equal opportunity are gaining attention from investors who want to create societal value." },
+        { type: "br" },
+        { type: "bold", value: "Ethical business practices" },
+        { type: "br" },
+        { type: "text", value: "Transparency and fairness are now crucial elements in investment decisions. Ventures that operate ethically earn more consistent trust from both customers and investors." },
+        { type: "br" },
+        { type: "text", value: "These shifts show how investments can shape a future that is fairer, healthier and more sustainable." },
+        { type: "br" },
+        
+      ]},
+      {
+  heading: "The Role of the Modern Investor",
+  content: [
+    {
+      type: "text",
+      value: "In purpose driven investing the investor becomes more than a source of funds. They become a guide, a supporter and a partner in vision. They participate in:"
+    },
+    { type: "br" },
+    { type: "text", value: "• Strategy design" },
+    { type: "br" },
+    { type: "text", value: "• Long term thinking" },
+    { type: "br" },
+    { type: "text", value: "• Ethical decision making" },
+    { type: "br" },
+    { type: "text", value: "• Impact measurement" },
+    { type: "br" },
+    { type: "text", value: "• Building responsible leadership" },
+    { type: "br" },
+    {
+      type: "text",
+      value: "This form of leadership creates ventures that are smarter, more aware and more aligned with global needs."
+    },
+    { type: "br" }
+  ]
+},
+{
+  heading: "Measuring Impact in Purpose Driven Investing",
+  content: [
+    {
+      type: "text",
+      value: "Impact is not an abstract idea. It can be measured and tracked. Investors increasingly use indicators such as:"
+    },
+    { type: "br" },
+    { type: "text", value: "• Environmental improvements" },
+    { type: "br" },
+    { type: "text", value: "• Social progress in communities" },
+    { type: "br" },
+    { type: "text", value: "• Employee wellbeing" },
+    { type: "br" },
+    { type: "text", value: "• Accessibility of technology" },
+    { type: "br" },
+    { type: "text", value: "• Positive changes in consumer behaviour" },
+    { type: "br" },
+    {
+      type: "text",
+      value: "These measurements help investors understand whether their capital is shaping the future they believe in."
+    },
+    { type: "br" }
+  ]
+},
+{
+  heading: "Why Purpose Driven Investing Is the Future",
+  content: [
+    {
+      type: "text",
+      value: "The world is facing challenges that cannot be solved through profit alone. Climate change resource pressure inequality and health access gaps require thoughtful leadership. Purpose driven investing brings together innovation, finance and responsibility. It ensures that wealth creation and world betterment move side by side."
+    },
+    { type: "br" },
+    {
+      type: "text",
+      value: "In the coming years ventures that operate with purpose will likely rise faster. Consumers trust them. Governments support them. Employees prefer them. Even markets reward them."
+    },
+    { type: "br" },
+    {
+      type: "text",
+      value: "This makes purpose driven investing not only good for society but also good for business."
+    },
+    { type: "br" }
+  ]
+},
+{
+  heading: "Bottom Line",
+  content: [
+    {
+      type: "text",
+      value: "Leadership in the modern world is no longer defined by the size of a portfolio. It is defined by the size of the impact created. Purpose driven investing proves that capital has more power when guided by intention. It can build ventures that are successful and responsible. It can spark positive change while generating returns. And it can shape a future that is more mindful and more human."
+    },
+    { type: "br" },
+    {
+      type: "text",
+      value: "The investors who understand this shift are the ones who will lead tomorrow. They look beyond immediate profit and imagine a future where progress is measured not just by what is gained but by what is given. They are building a better world one conscious decision at a time."
+    },
+    { type: "br" }
+  ]
+}
+
+  ],
+  },
   
 ];
 
