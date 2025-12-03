@@ -1,5 +1,5 @@
 import { AnimatePresence } from "framer-motion";
-import { HashRouter, Routes, Route, useLocation } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom"; // no HashRouter
 import Navbar from "./components/Navbar";
 import PageTransition from "./components/PageTransition";
 import Home from "./pages/Home";
@@ -17,25 +17,23 @@ const App = () => {
 
   return (
     <>
-    <HashRouter>
-  <Navbar />
-  <ContainerWrapper>
-    <AnimatePresence mode="wait">
-      <PageTransition key={location.pathname}>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/works" element={<Works />} />
-          <Route path="/landing" element={<MyApproach />} />
-          <Route path="/aboutme" element={<AboutMe />} />
-          <Route path="/blog" element={<Blog />} />
-        </Routes>
-      </PageTransition>
-    </AnimatePresence>
-  </ContainerWrapper>
-  <Footer/>
-</HashRouter>
+      <Navbar />
+      <ContainerWrapper>
+        <AnimatePresence mode="wait">
+          <PageTransition key={location.pathname}>
+            <Routes location={location} key={location.pathname}>
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/works" element={<Works />} />
+              <Route path="/landing" element={<MyApproach />} />
+              <Route path="/aboutme" element={<AboutMe />} />
+              <Route path="/blog" element={<Blog />} />
+            </Routes>
+          </PageTransition>
+        </AnimatePresence>
+      </ContainerWrapper>
+      <Footer />
     </>
   );
 };
