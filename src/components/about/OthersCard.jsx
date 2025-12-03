@@ -71,7 +71,7 @@ const OthersCard = () => {
         >
           <div className="text-xl sm:text-2xl md:flex md:flex-col font-bold text-white">
             <span className="text-xl sm:text-2xl md:text-3xl font-bold text-white">Contact</span>
-            <span className="text-xl sm:text-2xl md:text-3xl font-bold text-violet-700"> with me.</span>
+            <span className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-300"> with me.</span>
           </div>
 
           <Link
@@ -79,12 +79,12 @@ const OthersCard = () => {
             className="
               w-12 h-12 sm:w-14 sm:h-14 
               flex items-center justify-center 
-              rounded-full hover:bg-white/10 transition
+              rounded-full transition
             "
           >
             <img
-              src="/images/icon.svg"
-              className="w-6 sm:w-7 h-6 sm:h-7 opacity-50 hover:opacity-100 transition duration-300"
+              src="/images/Next Icon.png"
+              className="w-6 sm:w-7 h-6 sm:h-7 opacity-50 hover:scale-110 transition duration-300"
             />
           </Link>
         </motion.div>

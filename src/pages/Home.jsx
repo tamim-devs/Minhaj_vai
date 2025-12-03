@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { homeCards } from "../constant";
 import { Link } from "react-router-dom";
 import HomeCard from "../components/home/HomeCard";
-import iconPlus from "/images/icon.svg";
+import iconPlus from "/images/Next Icon.png";
 import PageTransition from './../components/PageTransition';
 import SmallCard from "../components/about/SmallCard";
 
@@ -99,8 +99,8 @@ const Home = () => {
                     animate={{ x: ["0%", "-100%"] }}
                     transition={{ duration: 5, repeat: Infinity, ease: "linear" }}
                   >
-                    <span className="px-12">Vision. Versatility. Impact.</span>
-                    <span className="px-12">Vision. Versatility. Impact. </span>
+                    <span className="px-12">Elevate. Empower. Evolve.</span>
+                    <span className="px-12">Elevate. Empower. Evolve. </span>
                   </motion.div>
                
               </motion.div>
@@ -138,9 +138,9 @@ const Home = () => {
                         </h1>
                       </div>
 
-                      <Link to={item.link} className="cursor-pointer">
+                      <Link to={item.link} className="w-12 cursor-pointer">
                         <img
-                          src="/images/icon.svg"
+                          src="/images/Next Icon.png"
                           className="w-9 h-9 hover:scale-110 transition"
                         />
                       </Link>

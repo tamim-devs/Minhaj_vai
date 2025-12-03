@@ -1,7 +1,6 @@
-import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
-import { Dribbble, Twitter, Instagram } from "iconoir-react";
 import { motion } from "framer-motion";
 import ContainerWrapper from "../components/ContainerWrapper";
+import { Dribbble, Instagram, Twitter } from "iconoir-react";
 
 export default function Contact() {
   return (
@@ -34,7 +33,7 @@ export default function Contact() {
                   className="w-20 h-20 bg-[#1f1f1f] flex items-center justify-center rounded-lg"
                   whileHover={{ scale: 1.1 }}
                 >
-                  <FaEnvelope className="w-8 h-8 text-white" />
+                  <img src="/images/Message.png" className="w-8 h-8 text-white" />
                 </motion.div>
               </div>
 
@@ -59,7 +58,7 @@ export default function Contact() {
                   className="w-20 h-20 bg-[#1f1f1f] flex items-center justify-center rounded-lg"
                   whileHover={{ scale: 1.1 }}
                 >
-                  <FaPhoneAlt className="w-8 h-8 text-white" />
+                  <img src="/images/Phone.png" className="w-8 h-8 text-white" />
                 </motion.div>
               </div>
 
@@ -84,7 +83,7 @@ export default function Contact() {
                   className="w-20 h-20 bg-[#1f1f1f] flex items-center justify-center rounded-lg"
                   whileHover={{ scale: 1.1 }}
                 >
-                  <FaMapMarkerAlt className="w-8 h-8 text-white" />
+                  <img src="/images/Loction.png" className="w-8 h-8 text-white" />
                 </motion.div>
               </div>
 

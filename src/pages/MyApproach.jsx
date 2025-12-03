@@ -16,22 +16,22 @@ const MyApproach = () => {
         <div className="bg-[#121212] border border-[#1f1f1f] rounded-3xl p-8 h-full">
           <ul className="space-y-10">
             <li className="flex items-center gap-4">
-              <div className="w-10 h-10 bg-[#1b1b1b] border border-[#2a2a2a] rounded-full flex items-center justify-center">📸</div>
+              <div className="w-10 h-10 bg-[#1b1b1b] border border-[#2a2a2a] rounded-full flex items-center justify-center"><img src="./images/PHOTOGRAPHY.png" /></div>
               <span className="text-gray-300 text-sm tracking-widest">PHOTOGRAPHY</span>
             </li>
 
             <li className="flex items-center gap-4">
-              <div className="w-10 h-10 bg-[#1b1b1b] border border-[#2a2a2a] rounded-full flex items-center justify-center">💻</div>
+              <div className="w-10 h-10 bg-[#1b1b1b] border border-[#2a2a2a] rounded-full flex items-center justify-center"><img src="/images/WEB DESIGNING.png" /></div>
               <span className="text-gray-300 text-sm tracking-widest">WEB DESIGNING</span>
             </li>
 
             <li className="flex items-center gap-4">
-              <div className="w-10 h-10 bg-[#1b1b1b] border border-[#2a2a2a] rounded-full flex items-center justify-center">🎨</div>
+              <div className="w-10 h-10 bg-[#1b1b1b] border border-[#2a2a2a] rounded-full flex items-center justify-center"><img src="/images/BRANDING.png" alt="" /></div>
               <span className="text-gray-300 text-sm tracking-widest">BRANDING</span>
             </li>
 
             <li className="flex items-center gap-4">
-              <div className="w-10 h-10 bg-white rounded-sm border border-[#ddd]" />
+              <div className="w-10 h-10 rounded-sm "><img src="/images/DEVELOPMENT.png"/></div>
               <span className="text-gray-300 text-sm tracking-widest">DEVELOPMENT</span>
             </li>
           </ul>

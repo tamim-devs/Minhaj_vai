@@ -70,17 +70,17 @@ const SmallCard = () => {
             <span className="text-4xl md:text-4xl font-bold text-white">
              Connect
             </span>
-            <span className="text-violet-700  md:text-5xl font-bold block">
+            <span className="text-gray-400  md:text-5xl font-bold block">
               with me.
             </span>
           </div>
 
           <Link
             to="/contact"
-            className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-white/10 transition"
+            className="w-10 h-10 flex hover:scale-110 items-center justify-center rounded-full hover:bg-white/10 transition"
           >
             <img
-              src="/images/icon.svg"
+              src="/images/Next Icon.png"
               alt="arrow"
               className="w-6 h-6 opacity-50 hover:opacity-100"
             />

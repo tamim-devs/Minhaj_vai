@@ -18,7 +18,7 @@ const homeCards = [
     type: "credentials",
     title: "Impact",
     subtitle: "MORE ABOUT ME",
-    icon: "/images/CredentialsImage.png",
+    icon: "/images/Impact.png",
      link: "/aboutme"
   },
   {
@@ -26,7 +26,7 @@ const homeCards = [
     type: "projects",
     title: "My Ventures",
     subtitle: "SHOWCASE",
-    image: "/images/SHOWCASE.png",
+    image: "/images/My-Venture.png",
     link: "/works"
 
   },
@@ -244,4 +244,139 @@ const aboutAwards = [
   { date: "26 June 2018", award: "Demble", desc: "Non enim praesent" },
 ];
 
-export {aboutSummary , aboutEducation, aboutExperience, aboutSkills ,aboutAwards, navLinks,experience,worksData, profile,education,cta,socialLinks, headings  };
+
+
+
+//blog
+
+const blogPosts = [
+  {
+    id: 1,
+    image: "/images/blog1.png",
+    title: "The Rise of the Omni Investors: Why the Future Belongs to Cross Industry Thinkers",
+    sections: [
+      {
+        heading: "",
+        content: [
+          { type: "text", value: "In a world where industries blend, technology accelerates and old boundaries fade, a new type of investor is emerging. This investor moves across multiple domains, connecting ideas and people to create lasting value" },
+          { type: "br" },
+          { type: "text", value: "The Omni Investor sees the entire landscape rather than isolated parts. They understand that real innovation appears at the intersections where sectors meet. Artificial intelligence " },
+          { type: "br" },
+          { type: "text", value: "transforms healthcare, automation reshapes real estate, and sustainability influences manufacturing. As industries become increasingly interconnected, those who can navigate these intersections will lead the next wave of progress" },
+        ]
+      },
+      {
+        heading: "The Intersections Where Innovation Happens",
+        content: [
+          { type: "text", value: "The power of cross industry thinking comes from the realisation that the most transformative breakthroughs arise when different disciplines meet. Consider these intersections."},
+          { type: "br" },
+          
+        ]
+      },
+      {
+        heading: "",
+        content: [
+           { type: "bold",  value: "Technology with healthcare" },
+           { type: "br" },
+        ]
+      },
+      {
+        heading: "",
+        content: [
+           { type: "text",  value: "AI driven diagnostics, robotic surgeries and personalised treatments are possible because medical science merged with technological innovation." },
+           { type: "br" },
+        ]
+      },
+     
+       {
+        heading: "",
+        content: [
+           { type: "bold",  value: "Real estate with automation" },
+           { type: "br" },
+        ]
+      },
+      {
+        heading: "",
+        content: [
+           { type: "text",  value: "Smart buildings, energy efficient homes and automated security systems exist because construction combined with digital technology." },
+           { type: "br" },
+        ]
+      },
+
+       {
+        heading: "",
+        content: [
+           { type: "bold",  value: "Education with artificial intelligence" },
+           { type: "br" },
+        ]
+      },
+      {
+        heading: "",
+        content: [
+           { type: "text",  value: "Adaptive learning, remote classrooms and personalised skill development emerged when teaching methods intersected with data and automation.." },
+           { type: "br" },
+           {type: 'text', value:"In each case, value was created not by mastering one field but by understanding how multiple fields influence one another. The Omni Investor thrives in this environment. They look beyond the obvious, anticipate hidden connections and recognise possibilities long before others see them."}
+        ]
+      },
+
+       {
+        heading: "The Core Mindset of an Omni Investor",
+        content: [
+           { type: "text",  value: "An Omni Investor is shaped by a particular way of thinking. It is not only about investing money. It is about investing vision, intent and insight." },
+           { type: "br" },
+           {type: 'text', value:"Here are key elements of their mindset."},
+            { type: "br" },
+           
+        ]
+      },
+       {
+        heading: "",
+        content: [
+           { type: "text",  value: "Adaptive learning, remote classrooms and personalised skill development emerged when teaching methods intersected with data and automation.." },
+           { type: "br" },
+           {type: 'text', value:"In each case, value was created not by mastering one field but by understanding how multiple fields influence one another. The Omni Investor thrives in this environment. They look beyond the obvious, anticipate hidden connections and recognise possibilities long before others see them."}
+        ]
+      },
+
+    ]
+  }
+];
+
+
+
+// 🔍 RIGHT SIDEBAR — SEARCH PLACEHOLDER
+const blogSearchPlaceholder = "Search here...";
+
+
+// 📌 RECENT POSTS
+const recentPosts = [
+  "Consulted admitting is power acuteness.",
+  "Unsatiable entreaties may collecting power.",
+  "Discovery incomode earnestly he commanded",
+  "Unsatiable entreaties may collecting power",
+];
+
+
+// 📂 CATEGORIES
+const blogCategories = [
+  "Analysis",
+  "Firewall",
+  "IT Solutions",
+  "Security",
+  "Technology",
+];
+
+
+// 🏷 TAGS
+const blogTags = [
+  "SaaS",
+  "UI/UX",
+  "Web",
+  "Java",
+  "Figma",
+  "Development",
+];
+
+
+
+export {blogSearchPlaceholder, aboutSummary ,blogPosts, blogTags,blogCategories, recentPosts,  aboutEducation, aboutExperience, aboutSkills ,aboutAwards, navLinks,experience,worksData, profile,education,cta,socialLinks, headings  };

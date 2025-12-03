@@ -16,8 +16,8 @@ const HomeCard = () => {
         px-6 py-6 flex flex-col gap-4 justify-between
         w-full md:w-[300px]
       ">
-        <div className="w-full h-32 rounded-xl overflow-hidden flex items-center justify-center bg-black">
-          <img src="/images/Blog.png" alt="" className="w-full h-full object-cover"/>
+        <div className="w-full h-32 rounded-xl overflow-hidden flex items-center justify-center ">
+          <img src="/images/My Insights.png" alt="" className="w-full h-full object-cover"/>
         </div>
 
         <div className="flex justify-between items-center w-full">
@@ -26,8 +26,8 @@ const HomeCard = () => {
             <p className="text-xl font-semibold text-white">My Insights</p>
           </div>
 
-          <Link to='/blog' className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-white/10 transition">
-            <img src="/images/icon.svg" alt="" className="w-6 h-6 opacity-50 hover:opacity-100"/>
+          <Link to='/blog' className="w-10 hover:scale-110 h-10 flex items-center justify-center rounded-full  transition">
+            <img src="/images/Next Icon.png" alt="" className="w-6 h-6 opacity-50 "/>
           </Link>
         </div>
       </div>
@@ -64,8 +64,8 @@ const HomeCard = () => {
             <p className="text-xl font-semibold text-white">My Approach</p>
           </div>
 
-          <Link to="/landing" className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-white/10 transition">
-            <img src="/images/icon.svg" className="w-6 h-6 opacity-50 hover:opacity-100"/>
+          <Link to="/landing" className="w-10 hover:scale-110 h-10 flex items-center justify-center rounded-full ">
+            <img src="/images/Next Icon.png" className="w-6 h-6 opacity-50 "/>
           </Link>
         </div>
       </div>
@@ -93,8 +93,8 @@ const HomeCard = () => {
             <p className="text-xl font-semibold text-white">My Socials</p>
           </div>
 
-          <Link to="/contact" className="w-10 h-10 flex items-center justify-center rounded-full mr-20 hover:bg-white/10 transition">
-            <img src="/images/icon.svg" className="w-6 h-6 opacity-50 hover:opacity-100"/>
+          <Link to="/contact" className="w-10 h-10 flex hover:scale-110 items-center justify-center rounded-full mr-20 transition">
+            <img src="/images/Next Icon.png" className="w-6 h-6 opacity-50 "/>
           </Link>
         </div>
       </div>
