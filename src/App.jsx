@@ -1,5 +1,5 @@
 import { AnimatePresence } from "framer-motion";
-import { useLocation, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route, useLocation } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import PageTransition from "./components/PageTransition";
 import Home from "./pages/Home";
