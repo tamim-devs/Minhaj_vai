@@ -17,24 +17,25 @@ const App = () => {
 
   return (
     <>
-      <Navbar />
-
-      <ContainerWrapper>
-        <AnimatePresence mode="wait">
-          <PageTransition key={location.pathname}>
-            <Routes location={location}>
-              <Route path="/" element={<Home />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="/works" element={<Works />} />
-              <Route path="/landing" element={<MyApproach />} />
-              <Route path="/aboutme" element={<AboutMe />} />
-              <Route path="/blog" element={<Blog />} />
-            </Routes>
-          </PageTransition>
-        </AnimatePresence>
-      </ContainerWrapper>
-      <Footer/>
+    <HashRouter>
+  <Navbar />
+  <ContainerWrapper>
+    <AnimatePresence mode="wait">
+      <PageTransition key={location.pathname}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/works" element={<Works />} />
+          <Route path="/landing" element={<MyApproach />} />
+          <Route path="/aboutme" element={<AboutMe />} />
+          <Route path="/blog" element={<Blog />} />
+        </Routes>
+      </PageTransition>
+    </AnimatePresence>
+  </ContainerWrapper>
+  <Footer/>
+</HashRouter>
     </>
   );
 };
