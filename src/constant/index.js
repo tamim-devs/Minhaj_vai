@@ -11,14 +11,14 @@ const homeCards = [
     title: "",
     name: "Ankith Jain",
     description: "Omni-Investor | Visionary Leader | Futurist",
-    image: "/images/client.png",
+    image: "/images/AJ1.jpg",
   },
   {
     id: 2,
     type: "credentials",
     title: "Impact",
     subtitle: "MORE ABOUT ME",
-    icon: "/images/Impact.png",
+    icon: "/images/impactb.jpg",
      link: "/aboutme"
   },
   {
@@ -26,7 +26,7 @@ const homeCards = [
     type: "projects",
     title: "My Ventures",
     subtitle: "SHOWCASE",
-    image: "/images/My-Venture.png",
+    image: "/images/my venturesb.jpg",
     link: "/works"
 
   },
@@ -120,7 +120,7 @@ const profile = {
   description: `What excites me most is the endless potential of human innovation,  the way 
 technology, intelligence, and ambition converge to create progress. To shape the 
 future, we don’t wait, we build it, together. `,
-  image: "/images/2.png",
+  image: "/images/AJ2b.jpg",
 };
 
 const experience = [

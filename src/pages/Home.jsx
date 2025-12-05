@@ -35,7 +35,7 @@ const Home = () => {
 
               {/* IMAGE */}
               <div className="w-full sm:w-72 md:w-64 
-              h-48 sm:h-56 md:h-48 overflow-hidden shadow-lg 
+              h-auto sm:h-56 md:h-48 overflow-hidden shadow-lg 
               rounded-tl-[30px] rounded-br-[30px]">
 
                 <img
@@ -102,6 +102,8 @@ const Home = () => {
     <span className="px-12">Vision. Versatility. Impact.</span>
     <span className="px-12">Elevate. Empower. Evolve.</span>
     <span className="px-12">Elevate. Empower. Evolve.</span>
+    <span className="px-12">Create. Transform. Lead. and   Innovate. Build. Inspire.</span>
+    <span className="px-12">Create. Transform. Lead. and   Innovate. Build. Inspire</span>
 
     <span className="px-12">Vision. Versatility. Impact.</span>
     <span className="px-12">Vision. Versatility. Impact.</span>
@@ -133,7 +135,7 @@ const Home = () => {
                       </Link>
                     )}
 
-                    <Link to={item.link} className="flex justify-between items-center">
+                    <Link to={item.link} className="flex mt-2 justify-between items-center">
                       <div>
                         <h4 className="text-white/70 text-sm">
                           {item.subtitle}

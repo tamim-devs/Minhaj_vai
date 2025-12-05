@@ -17,7 +17,7 @@ const HomeCard = () => {
         w-full md:w-[300px]
       ">
         <div className="w-full h-32 rounded-xl overflow-hidden flex items-center justify-center ">
-          <img src="/images/My Insights.png" alt="" className="w-full h-full object-cover"/>
+          <img src="/images/insightsb.jpg" alt="" className="w-full h-full object-cover"/>
         </div>
 
         <div className="flex justify-between items-center w-full">
@@ -43,16 +43,16 @@ const HomeCard = () => {
       <div>
         <div className="flex items-center mb-10 justify-center gap-6 text-white flex-wrap">
           <div className="w-20 h-20">
-            <img src="/images/COLLABORATE.png" />
+            <img src="/images/BRAND-POSITIONING.png" />
           </div>
           <div className="w-20 h-20">
-            <img src="/images/ENVISION.png" />
+            <img src="/images/INNOVATION-STRATEGY.png" />
           </div>
           <div className="w-20 h-20">
-            <img src="/images/EVOLVE.png" />
+            <img src="/images/PRODUCT-DEVELOPMENT (1).png" />
           </div>
           <div className="w-20 h-20">
-            <img src="/images/IMPLEMENT.png" />
+            <img src="/images/VENTURE-BUILDING.png" />
           </div>
           
         </div>
@@ -83,8 +83,12 @@ const HomeCard = () => {
         w-full md:w-[300px]
       ">
         <div className="w-full h-32 rounded-xl overflow-hidden flex items-center justify-center gap-6 bg-black/20">
-          <FaDribbble className="w-10 h-10 text-white"/>
-          <FaTwitter className="w-10 h-10 text-white"/>
+          <div className="w-20 ">
+            <img src="/images/mail.png" alt="mail.png" />
+          </div>
+         <div className="w-16">
+            <img src="/images/calling.png" alt="calling.png" />
+          </div>
         </div>
 
         <div className="flex justify-between items-center w-full ">
