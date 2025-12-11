@@ -1021,31 +1021,29 @@ const blogSearchPlaceholder = "Search here...";
 
 // 📌 RECENT POSTS
 const recentPosts = [
-  "Consulted admitting is power acuteness.",
-  "Unsatiable entreaties may collecting power.",
-  "Discovery incomode earnestly he commanded",
-  "Unsatiable entreaties may collecting power",
+  "The Rise of the Omni Investors: Why the Future Belongs to Cross Industry Thinkers",
+  "Turning Uncertainty Into Opportunity: The Mindset Behind Building Resilient Ventures",
+  "Leadership Beyond Capital: How Purpose Driven Investing Shapes a Better Future"
 ];
 
 
 // 📂 CATEGORIES
 const blogCategories = [
-  "Analysis",
-  "Firewall",
-  "IT Solutions",
-  "Security",
-  "Technology",
+  "Future of Investing",
+  "Entrepreneurship & Innovation",
+  "Leadership & Mindset",
+  "Cross-Industry Trends",
+  "Purpose Driven Capital",
 ];
 
 
 // 🏷 TAGS
 const blogTags = [
-  "SaaS",
-  "UI/UX",
-  "Web",
-  "Java",
-  "Figma",
-  "Development",
+  "Entrepreneurship",
+  "Future Trend",
+  "Business Growth",
+  "Opportunity",
+  "Innovation",
 ];
 
 
