@@ -129,7 +129,7 @@ export default function Contact() {
           viewport={{ once: true }}
         >
           <h2 className="text-5xl font-bold mb-14">
-            Let's work <span className="text-[#5b78f6]">together</span>
+            Let's work <span className="text-gray-400">together</span>
           </h2>
 
           <form className="space-y-6">
